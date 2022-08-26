@@ -10,6 +10,6 @@ public class Main {
         post.patronymic = "Николаевич";
         post.phone = "+7(999)999-99-99";
         post.surname = "Семенчук";
-        post.subscription = "true";
+        post.subscription = Boolean.valueOf("true");
     }
 }
